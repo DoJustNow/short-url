@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "dojustnow/short-link",
+  "description": "Короткие url",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alexey",
+      "email": "slivkinalexey20@gmail.com"
+    }
+  ],
+  "require": {
+      "php": ">=7.1.0",
+      "laravel/framework": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "dojustnow\\ShortUrl\\": ""
+    }
+  }
+}
